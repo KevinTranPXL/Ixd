@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  height: 30px;
+  background-color: #dddddd;
+}
+
+li {
+  overflow: hidden;
+  display: inline;
+  background-color: #dddddd;
+}
+li a {
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+button {
+  background-color: green;
+  height: 60px;
+  width: 60px;
+}
+
+.marge {
+  height: 800px;
+}
+
+#dr1,
+#dr2,
+#dr3 {
+  width: 30%;
+}
+.flexbox {
+  display: flex;
+  background-color: rgba(187, 139, 139, 0.459);
+  flex-direction: column;
+  margin-top: 10%;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+}
