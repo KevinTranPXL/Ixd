@@ -26,15 +26,39 @@ let time = 0;
 scan();
 
 function scan() {
-  time = time + 0.1;
-  let mango = (0.6 + time) % 2;
-  images[0].style.opacity = mango;
-  let banaan = (1.9 + time) % 2;
-  images[1].style.opacity = banaan;
-  let kiwi = (3.2 + time) % 2;
-  images[2].style.opacity = kiwi;
+  time = time + 0.06;
+  let speed = 1;
+  let kr1 = time % speed; //0...1
+  let kr2 = (time - 0.1) % speed;
+  let kr3 = (time - 0.3) % speed;
 
-  setTimeout(scan, 80);
+  kr1 = kr1 * 2; //0...2
+  kr1 = kr1 - 1; //-1 ... 1
+  if (kr1 < 0) {
+    kr1 = -kr1; //1..0
+  } else {
+    // 0 ..1
+  }
+  //0 - 1 - 0
+  images[0].style.opacity = kr1;
+  kr2 = kr2 * 2; //0...2
+  kr2 = kr2 - 1; //-1 ... 1
+  if (kr2 < 0) {
+    kr2 = -kr2; //1..0
+  } else {
+    // 0 ..1
+  }
+  images[1].style.opacity = kr2;
+  kr3 = kr3 * 2; //0...2
+  kr3 = kr3 - 1; //-1 ... 1
+  if (kr3 < 0) {
+    kr3 = -kr3; //1..0
+  } else {
+    // 0 ..1
+  }
+  images[2].style.opacity = kr3;
+
+  setTimeout(scan, 60);
 }
 
 // loop : function()
