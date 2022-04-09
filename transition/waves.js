@@ -4,8 +4,8 @@ let dr1 = document.getElementById("dr1");
 let dr2 = document.getElementById("dr2");
 let dr3 = document.getElementById("dr3");
 
-dr1.style.opacity = "0.3";
-dr2.style.opacity = "0.5";
+dr1.style.opacity = "0.2";
+dr2.style.opacity = "0.4";
 dr3.style.opacity = "1";
 // dr3.style.margin = "200px";
 
@@ -29,8 +29,8 @@ function scan() {
   time = time + 0.06;
   let speed = 1;
   let kr1 = time % speed; //0...1
-  let kr2 = (time - 0.1) % speed;
-  let kr3 = (time - 0.3) % speed;
+  let kr2 = (time - 0.2) % speed;
+  let kr3 = (time - 0.4) % speed;
 
   kr1 = kr1 * 2; //0...2
   kr1 = kr1 - 1; //-1 ... 1
