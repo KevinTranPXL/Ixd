@@ -45,3 +45,10 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+.blok { 
+  width: 100px;
+  height: 100px;
+  background-color: rgb(127, 174, 127);
+  border: 8px solid rgb(150, 83, 186);
+}
