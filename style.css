@@ -1,0 +1,121 @@
+
+/* Algemeen */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titan One', sans-serif;
+}
+
+h1{
+    font-size: 3.75rem;
+    color:#1A8300;
+    font-weight: normal;
+  
+}
+
+h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.4rem;
+    color:#319A17
+  
+}
+
+/* Startpagina */
+
+.TitelStart{
+    font-size: 8rem;
+    color: #1A8300;
+}
+
+.TitelLichtgroen{
+    color: #25B900;
+    margin-top: -10px;
+}
+
+#container{
+    margin-top: 7rem;
+    margin-left:3.1rem;
+    margin-right:3.1rem;
+
+}
+
+.boogGroen{
+    width: 100%;
+    height: auto;
+}
+
+.curlyFooter{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Bestelpagina */
+
+.curlyFooterTop{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: -2;
+}
+
+ svg .svg-elem-1 {
+    stroke-dashoffset: 3816.58984375px;
+    stroke-dasharray: 1908.294921875px;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  }
+  
+  svg.active .svg-elem-1 {
+    stroke-dashoffset: 1908.294921875px;
+  }
+  
+.witvierkant{
+    background-color: #FFFFFF;
+    margin-top: 44px;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 1px 22px 3px rgba(44,65,43,0.04); 
+box-shadow: 0px 1px 22px 3px rgba(44,65,43,0.04);
+}
+.foodorder{
+    width: 100%;
+    background-color: rgb(196, 190, 192);
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.foodorder:last-child{
+    margin-bottom: 0px;
+}
+
+/* Grote button onderaan */
+
+.buttoncontainer {
+    height: 15vh;
+    width: 100%;
+    background-color: #49A931;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-radius: 40px 40px 0px 0px;
+  -webkit-box-shadow: 0px 1px 22px 3px rgba(44,65,43,0.04); 
+  box-shadow: 0px 1px 22px 3px rgba(44,65,43,0.04);
+}
+          
+.linkerbutton{
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 40px 0px 0px 0px;
+}
+
+.rechterbutton{
+
+}
